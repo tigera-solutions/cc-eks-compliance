@@ -82,7 +82,7 @@ The simplest ways to configure your workspace environment is to either use your 
      Download the k9s_Linux_x68_64.tar.gz file from the k9s github repo
 
      ```bash
-     curl --silent --location "https://github.com/derailed/k9s/releases/download/v0.26.7/k9s_Linux_x86_64.tar.gz" | tar xz -C /tmp
+     curl --silent --location "https://github.com/derailed/k9s/releases/download/v0.27.4/k9s_Linux_amd64.tar.gz" | tar xz -C /tmp
      sudo mv /tmp/k9s /usr/local/bin
      k9s version
      ```
