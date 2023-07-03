@@ -42,7 +42,7 @@ https://www.calicocloud.io/home
 
 Once you are able to login to Calico Cloud UI, go to the "Managed clusters" section, and click on the "Connect Cluster" button, then leave "Amazon EKS" selected, and give a name to your cluster, and click "Next". Read the cluster requirements in teh next section, and click "Next". Finally, copy the kubectl command you must run in order to connect your cluster to the management cluster for your Calico Cloud instance.
 
-![managed-clusters](https://user-images.githubusercontent.com/104035488/206290672-8af9c13f-314a-4752-8cb8-ff1b892484d6.png)
+![cluster](https://github.com/tigera-solutions/cc-eks-compliance/assets/104035488/fd7d1d47-9a65-4d45-8798-a50fd125447c)
 
 ---
 
