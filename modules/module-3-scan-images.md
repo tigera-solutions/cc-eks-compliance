@@ -9,7 +9,7 @@
    Linux
    
    ```bash
-   curl -Lo tigera-scanner https://installer.calicocloud.io/tigera-scanner/v3.16.1-0/image-assurance-scanner-cli-linux-amd64
+   curl -Lo tigera-scanner https://installer.calicocloud.io/tigera-scanner/v3.16.1-11/image-assurance-scanner-cli-linux-amd64
    sudo chmod +x ./tigera-scanner
    sudo mv ./tigera-scanner /usr/local/bin
    tigera-scanner version
