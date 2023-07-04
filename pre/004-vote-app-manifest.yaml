@@ -177,6 +177,8 @@ metadata:
   name: vote-external
   namespace: vote
   annotations:
+    service.beta.kubernetes.io/aws-load-balancer-type: nlb
+    service.beta.kubernetes.io/aws-load-balancer-target-group-attributes: preserve_client_ip.enabled=true
     projectcalico.org/l7-logging: 'true'
 spec:
   type: LoadBalancer
@@ -238,6 +240,8 @@ metadata:
   name: result-external
   namespace: vote
   annotations:
+    service.beta.kubernetes.io/aws-load-balancer-type: nlb
+    service.beta.kubernetes.io/aws-load-balancer-target-group-attributes: preserve_client_ip.enabled=true
     projectcalico.org/l7-logging: 'true'
 spec:
   type: LoadBalancer
