@@ -44,7 +44,7 @@ For this workshop, we will enable the IDS for the vote service and observe the a
    - Find the IP address of the vote application and export it to the `VOTE_EXTERNAL` environment variable
 
      ```bash
-     export VOTE_EXTERNAL=$(kubectl get svc -n vote vote-external -o=jsonpath='{.status.loadBalancer.ingress[*].ip}')
+     export VOTE_EXTERNAL=$(kubectl get svc -n vote vote-external -o=jsonpath='{.status.loadBalancer.ingress[*].hostname}')
      ```
 
    - From your shell, execute the following commands.

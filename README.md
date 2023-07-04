@@ -36,12 +36,12 @@ This workshop is organized in sequencial modules. One module will build up on to
 Module 1 - [Prerequisites](/modules/module-1-prereq.md)  
 Module 2 - [Create an EKS cluster](/modules/module-2-create-eks.md)  
 Module 3 - [Connect the EKS cluster to Calico Cloud](/modules/module-3-connect-calicocloud.md) 
-Module 4 - [Scan Container Images](/modules/module-3-scan-images.md)  
-Module 5 - [Security Guardrails for Network-based Threats](/modules/module-4-security-guardrails.md)  
-Module 6 - [Configuring IDS protection and Workload-Centric WAF](/modules/module-5-ids-waf.md)  
-Module 7 - [Detect Zero-Day Attacks with Threat Defence](/modules/module-6-threat-defence.md)  
-Module 8 - [Quarantine Infected Workloads and KSPM](/modules/module-7-quarantine-kspm.md)  
-Module 9 - [Clean up](/modules/module-8-clean-up.md)  
+Module 4 - [Scan Container Images](/modules/module-4-scan-images.md)  
+Module 5 - [Security Guardrails for Network-based Threats](/modules/module-5-security-guardrails.md)  
+Module 6 - [Configuring IDS protection and Workload-Centric WAF](/modules/module-6-ids-waf.md)  
+Module 7 - [Detect Zero-Day Attacks with Threat Defence](/modules/module-7-threat-defence.md)  
+Module 8 - [Quarantine Infected Workloads and KSPM](/modules/module-8-quarantine-kspm.md)  
+Module 9 - [Clean up](/modules/module-9-clean-up.md)  
 
 
 

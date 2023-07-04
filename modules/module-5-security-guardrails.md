@@ -11,12 +11,12 @@ In this module, we will learn how to use Calico to create network policies to co
    kubectl apply -f pre
    ```
 
-Included in the `pre` there folder is an applications that will be used in the exercises during the workshop. The diagram below shows how the elements of the application communicate between themselves.
+Included in the `pre` folder, there is an applications that will be used in the exercises during the workshop. The diagram below shows how the elements of the application communicate between themselves.
 
 ![vote](https://github.com/tigera-solutions/cc-eks-compliance/assets/104035488/142ea62b-be3e-4c37-b39c-b501e1834f89)
 
 
-There are also other objects that will be created. We will lear about them later in the workshop.
+There are also other objects that will be created. We will learn about them later in the workshop.
 
    > **Note**: Wait until all the pods are up and running to move to the next step.
 
