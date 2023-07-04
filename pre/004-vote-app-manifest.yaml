@@ -182,7 +182,6 @@ metadata:
     projectcalico.org/l7-logging: 'true'
 spec:
   type: LoadBalancer
-  externalTrafficPolicy: Local
   ports:
   - name: "vote-service"
     port: 80
@@ -245,7 +244,6 @@ metadata:
     projectcalico.org/l7-logging: 'true'
 spec:
   type: LoadBalancer
-  externalTrafficPolicy: Local
   ports:
   - name: "result-service"
     port: 80

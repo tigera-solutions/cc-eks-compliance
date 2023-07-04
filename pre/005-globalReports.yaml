@@ -40,5 +40,4 @@ spec:
     namespaces:
       names:
         - vote
-        - wordpress
         - default
