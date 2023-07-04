@@ -42,7 +42,7 @@ Lets pull two images:
    This command will scan the image and present all the vulnerabilities found on it. However, as we didn't define the threshold for `PASS`, `WARN` or `FAIL` results, the reported `Scan result:` will be `UNKNOWN`.
 
    <pre>
-   $ tigera-scanner scan registry.hub.docker.com/regisftm/website:v1.0.0
+   $ tigera-scanner scan registry.hub.docker.com/regisftm/website:v1.0.0 | more
    INFO[0000] Vulnerability database director not set, setting it to the cache default direct /home/ec2-user/.cache. 
    
     scanning registry.hub.docker.com/regisftm/website:v1.0.0... 
