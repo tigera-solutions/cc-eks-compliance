@@ -1,4 +1,4 @@
-# Module 2 - Create an EKS cluster
+# Module 2 - Create an EKS cluster and Connect it to Calico Cloud
 
 > **Note**: During this workshop, we'll set up some environment variables. If you're terminal session restarts, you may need to reload these variables. You can use that via the following command: <p>
 ```bash
@@ -23,7 +23,7 @@ echo "# Start Lab Params" > ~/labVars.env
 echo export CLUSTERNAME=$CLUSTERNAME >> ~/labVars.env
 echo export REGION=$REGION >> ~/labVars.env
 #
-eksctl create cluster --name $CLUSTERNAME --version 1.26  --region $REGION --node-type m5.xlarge
+eksctl create cluster --name $CLUSTERNAME --version 1.24  --region $REGION --node-type m5.xlarge
 ```
 
 - View EKS cluster.
@@ -32,6 +32,18 @@ eksctl create cluster --name $CLUSTERNAME --version 1.26  --region $REGION --nod
   
   ```bash
   eksctl get cluster $CLUSTERNAME --region $REGION
+  ```
+
+- Install the EBS driver for the EKS cluster.
+
+  ```bash
+  kubectl apply -k "github.com/kubernetes-sigs/aws-ebs-csi-driver/deploy/kubernetes/overlays/stable/?ref=release-1.16"
+  ```
+  
+  Check driver pods status.
+  
+  ```bash
+  kubectl get pods -n kube-system -l app.kubernetes.io/name=aws-ebs-csi-driver
   ```
 
 - Test access to EKS cluster with kubectl.
@@ -49,5 +61,5 @@ eksctl create cluster --name $CLUSTERNAME --version 1.26  --region $REGION --nod
 
 [:arrow_right: Module 3 - Connect the AWS EKS cluster to Calico Cloud](/modules/module-3-connect-calicocloud.md)  <br>
 
-[:arrow_left: Module 1 - Prerequisites](/modules/module-1-prereq.md)  
+[:arrow_left: Module 1 - Getting Started](/modules/module-1-getting-started.md)    
 [:leftwards_arrow_with_hook: Back to Main](/README.md)  

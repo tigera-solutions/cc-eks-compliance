@@ -34,13 +34,22 @@ Learn how to:
 This workshop is organized in sequencial modules. One module will build up on top of the previous module, so please, follow the order as proposed below.
 
 Module 1 - [Prerequisites](/modules/module-1-prereq.md)  
-Module 2 - [Create an EKS cluster and Connect it to Calico Cloud](/modules/module-2-create-eks.md)  
+Module 2 - [Create an EKS cluster](/modules/module-2-create-eks.md)  
+Module 3 - [Connect the EKS cluster to Calico Cloud](/modules/module-3-connect-calicocloud.md) 
+
+
 Module 3 - [Scan Container Images](/modules/module-3-scan-images.md)  
 Module 4 - [Calico Cloud Admission Controller](/modules/module-4-admission-controller.md)  
 Module 5 - [Zero-trust access control using identity-aware microsegmentation](/modules/module-5-zero-trust.md)  
 Module 6 - [Runtime security with IDS/IPS using Deep Packet Inspection](/modules/module-6-runtime-sec.md)  
 Module 7 - [Traffic visualization inside your Kubernetes Cluster](/modules/module-7-visibility.md)  
 Module 8 - [Clean up](/modules/module-8-clean-up.md)  
+
+ 
+Module 4 - [Security Guardrails for Network-based Threats](/modules/module-4-security-guardrails.md)  
+Module 5 - [Configuring IDS protection and Workload-Centric WAF](/modules/module-5-ids-waf.md)  
+Module 6 - [Detect Zero-Day Attacks with Threat Defence](/modules/module-6-threat-defence.md)  
+Module 7 - [Quarantine Infected Workloads and KSPM](/modules/module-7-quarantine-kspm.md)  
 
 --- 
 
