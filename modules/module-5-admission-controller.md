@@ -1,4 +1,4 @@
-# Module 4 - Calico Cloud Admission Controller
+# Module 5 - Calico Cloud Admission Controller
 
 1. Upgrade the OpenSSL from 1.0 to 1.1
 
