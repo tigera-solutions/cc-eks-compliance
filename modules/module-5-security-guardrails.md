@@ -11,12 +11,12 @@ In this module, we will learn how to use Calico to create network policies to co
    kubectl apply -f pre
    ```
 
-Included in the `pre` there folder are two applications that will be used in the exercises during the workshop. The diagram below shows how the elements of each application communicate between themselves.
+Included in the `pre` there folder is an applications that will be used in the exercises during the workshop. The diagram below shows how the elements of the application communicate between themselves.
 
 ![vote](https://github.com/tigera-solutions/cc-eks-compliance/assets/104035488/142ea62b-be3e-4c37-b39c-b501e1834f89)
 
 
-There are also other objects that will be created for the workshop. We will lear about them later in the workshop.
+There are also other objects that will be created. We will lear about them later in the workshop.
 
    > **Note**: Wait until all the pods are up and running to move to the next step.
 
@@ -156,7 +156,7 @@ For more information about tiers, please refer to the Calico Cloud documentation
 
 --- 
 
-[:arrow_right: Module 5 - Configuring IDS protection and Workload-Centric WAF](/modules/module-5-ids-waf.md)  <br>
+[:arrow_right: Module 6 - Configuring IDS protection and Workload-Centric WAF](/modules/module-6-ids-waf.md)  <br>
 
-[:arrow_left: Module 3 - Connect the AWS EKS cluster to Calico Cloud](/modules/module-3-connect-calicocloud.md)  
+[:arrow_left: Module 4 - Scan Container Images](/modules/module-3-scan-images.md)    
 [:leftwards_arrow_with_hook: Back to Main](/README.md)  
