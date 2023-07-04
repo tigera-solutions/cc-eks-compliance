@@ -67,5 +67,5 @@ Continuous compliance means employing a continual audit that shows what traffic 
 
 [:arrow_right: Module 8 - Clean up](/modules/module-8-clean-up.md)  <br>
 
-[:arrow_left: Module 6 - Realtime Container Thread Defence](/modules/module-6-threat-defence.md)  
+[:arrow_left: Module 6 - Configuring IDS protection and Workload-Centric WAF](/modules/module-6-ids-waf.md)  
 [:leftwards_arrow_with_hook: Back to Main](/README.md)  

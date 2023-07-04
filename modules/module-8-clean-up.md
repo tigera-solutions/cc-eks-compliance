@@ -3,9 +3,7 @@
 1. Delete application stack to clean up any `loadbalancer` services.
 
    ```bash
-   kubectl delete -f manifests/dev-app-manifest.yaml
-   kubectl delete -f manifests/kubernetes-manifests.yaml
-   kubectl delete -f manifests/website.yaml
+   kubectl delete -f pre/004-vote-app-manifest.yaml
    ```
 
 2. Delete EKS cluster.
@@ -36,6 +34,6 @@
 
 ---
 
-[:arrow_left: Module 7 - Traffic visualization inside your Kubernetes Cluster](/modules/module-7-visibility.md) <br>
+[:arrow_left: Module 7 - Quarantine Infected Workloads and KSPM](/modules/module-7-quarantine-kspm.md) <br>
 
 [:leftwards_arrow_with_hook: Back to Main](/README.md) 

@@ -47,7 +47,7 @@ eksctl create cluster --name $CLUSTERNAME --version 1.26  --region $REGION --nod
 
 --- 
 
-[:arrow_right: Module 3 - Connect the AWS EKS cluster to Calico Cloud](/modules/module-3-connect-calicocloud.md)  <br>
+[:arrow_right: Module 3 - Connect the EKS cluster to Calico Cloud](/modules/module-3-connect-calicocloud.md)  <br>
 
 [:arrow_left: Module 1 - Prerequisites](/modules/module-1-prereq.md)  
 [:leftwards_arrow_with_hook: Back to Main](/README.md)  

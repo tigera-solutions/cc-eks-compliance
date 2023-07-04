@@ -103,7 +103,7 @@ When you change the cluster, the whole Calico Cloud context will change immediat
 
 --- 
 
-[:arrow_right: Module 4 - Zero Trust Workload Access Control](/modules/module-4-workload-access-control.md)   <br>
+[:arrow_right: Module 4 - Scan Container Images](/modules/module-4-scan-images.md)   <br>
 
-[:arrow_left: Module 2 - Deploy an AWS EKS cluster](/modules/module-2-create-eks.md)    
+[:arrow_left: Module 2 - Create an EKS cluster](/modules/module-2-create-eks.md)    
 [:leftwards_arrow_with_hook: Back to Main](/README.md)  

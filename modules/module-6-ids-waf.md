@@ -1,4 +1,4 @@
-# Module 5 - Configuring IDS protection and Workload-Centric WAF
+# Module 6 - Configuring IDS protection and Workload-Centric WAF
 
 Security teams need to run DPI quickly in response to unusual network traffic in clusters so they can identify potential threats. Also, it is critical to run DPI on select workloads (not all) to efficiently use cluster resources and minimize the impact of false positives. Calico Cloud provides an easy way to perform DPI using Snort community rules. You can disable DPI at any time, selectively configure for namespaces and endpoints, and alerts are generated in the `Alerts` dashboard in Manager UI.
 
@@ -99,7 +99,7 @@ Calico Cloud WAF allows you to selectively run service traffic within your clust
 
 --- 
 
-[:arrow_right: Module 6 - Detect Zero-Day Attacks with Threat Defence](/modules/module-6-threat-defence.md)  <br>
+[:arrow_right: Module 7 - Quarantine Infected Workloads and KSPM](/modules/module-7-quarantine-kspm.md)  <br>
 
-[:arrow_left: Module 4 - Security Guardrails for Network-based Threats](/modules/module-4-security-guardrails.md)  
+[:arrow_left: Module 5 - Security Guardrails for Network-based Threats](/modules/module-5-security-guardrails.md)  
 [:leftwards_arrow_with_hook: Back to Main](/README.md)  

@@ -1,4 +1,4 @@
-# Module 4 - Security Guardrails for Network-based Threats
+# Module 5 - Security Guardrails for Network-based Threats
 
 Calico provides methods to enable fine-grained access controls between your microservices and external databases, cloud services, APIs, and other applications that are protected by a firewall. You can enforce controls from within the cluster using DNS egress policies from a firewall outside the cluster using the egress gateway. Controls are applied on a fine-grained, per-pod basis.
 
@@ -156,7 +156,7 @@ For more information about tiers, please refer to the Calico Cloud documentation
 
 --- 
 
-[:arrow_right: Module 6 - Configuring IDS protection and Workload-Centric WAF](/modules/module-6-ids-waf.md)  <br>
+[:arrow_right: Module 6 - Configuring IDS protection and Workload-Centric WAF](/modules/module-6-ids-waf.md))  <br>
 
-[:arrow_left: Module 4 - Scan Container Images](/modules/module-3-scan-images.md)    
+[:arrow_left: Module 4 - Scan Container Images](/modules/module-4-scan-images.md)    
 [:leftwards_arrow_with_hook: Back to Main](/README.md)  
