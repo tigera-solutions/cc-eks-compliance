@@ -2,15 +2,15 @@
 
 ## Welcome
 
-In this EKS-focused workshop, you will work with AWS and Calico Cloud to learn how to design and deploy best practices to achieve compliance with regulatory frameworks such as PCI, SOC2 , HIPAA and others and secure your Kubernetes environment. 
+In this EKS-focused workshop, you will work with AWS and Calico Cloud to learn how to design and deploy best practices to achieve compliance with regulatory frameworks such as PCI, SOC2, HIPAA and others and secure your Kubernetes environment. 
 
-Enterprises developing compliant cloud-native applications have two primary needs. First, they must secure and govern access to containerized workloads and the Kubernetes environment. Second, they need to simplify audit logging and compliance reporting. The Kubernetes environment is dynamic and distributed, and workloads are ephemeral, making it difficult to enforce compliance controls and provide continuous reporting.
+Enterprises developing compliant cloud-native applications have two primary needs. First, they must secure and govern access to containerized workloads and the Kubernetes environment. Second, they need to simplify audit logging and compliance reporting. The Kubernetes environment is dynamic and distributed, and workloads are ephemeral, making enforcing compliance controls and providing continuous reporting difficult.
 
-The purpose of this repository is to offer you a comprehensive, step-by-step guide on creating an AWS EKS cluster, registering it on Calico Cloud, and securing your cloud-native applications to meet compliance requirements. Although Calico Cloud provides a wide range of functionalities and security functionalities, due to time constraints, this workshop will concentrate on a few key security features that effectively ensure compliance across multiple regulatory frameworks. If you would like to delve deeper into this topic, please don't hesitate to contact us. 
+The purpose of this repository is to offer you a comprehensive, step-by-step guide on creating an AWS EKS cluster, registering it on Calico Cloud, and securing your cloud-native applications to meet compliance requirements. Although Calico Cloud provides a wide range of functionalities and security features, this workshop will concentrate on a few key features that effectively ensure compliance across multiple regulatory frameworks due to time constraints. If you would like to delve deeper into this topic, please don't hesitate to contact us.
 
 ## Time Requeriments
 
-The estimated time to complete this workshop is 90-120 minutes.
+The estimated time to complete this workshop is 60-90 minutes.
 
 ## Target Audience
 
