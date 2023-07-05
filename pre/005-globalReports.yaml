@@ -6,7 +6,7 @@ metadata:
     deployment: production
 spec:
   reportType: cis-benchmark
-  schedule: '*/30 * * * *'
+  schedule: '*/15 * * * *'
   cis:
     highThreshold: 100
     medThreshold: 50
@@ -19,7 +19,7 @@ metadata:
   name: cluster-inventory
 spec:
   reportType: inventory
-  schedule: '*/30 * * * *'
+  schedule: '*/15 * * * *'
 ---
 apiVersion: projectcalico.org/v3
 kind: GlobalReport
@@ -27,7 +27,7 @@ metadata:
   name: cluster-network-access
 spec:
   reportType: network-access
-  schedule: '*/30 * * * *'
+  schedule: '*/15 * * * *'
 ---
 apiVersion: projectcalico.org/v3
 kind: GlobalReport
@@ -35,7 +35,7 @@ metadata:
   name: cluster-policy-audit
 spec:
   reportType: policy-audit
-  schedule:  '*/30 * * * *'
+  schedule:  '*/15 * * * *'
   endpoints:
     namespaces:
       names:
