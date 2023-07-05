@@ -35,7 +35,7 @@ This workshop is organized in sequencial modules. One module will build up on to
 
 Module 1 - [Prerequisites](/modules/module-1-prereq.md)  
 Module 2 - [Create an EKS cluster](/modules/module-2-create-eks.md)  
-Module 3 - [Connect the EKS cluster to Calico Cloud](/modules/module-3-connect-calicocloud.md) 
+Module 3 - [Connect the EKS cluster to Calico Cloud](/modules/module-3-connect-calicocloud.md)  
 Module 4 - [Scan Container Images](/modules/module-4-scan-images.md)  
 Module 5 - [Security Guardrails for Network-based Threats](/modules/module-5-security-guardrails.md)  
 Module 6 - [Configuring IDS protection and Workload-Centric WAF](/modules/module-6-ids-waf.md)  
